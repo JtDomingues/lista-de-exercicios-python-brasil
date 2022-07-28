@@ -18,3 +18,7 @@ Mostrar apenas valor inteiro da temperatura
 
 def transformar_para_fahrenheit():
     """Escreva aqui em baixo a sua solução"""
+
+    gruas_c = int(input(''))
+    print(f'Essa temperatura é de {round((gruas_c*9)/5)+32} Fahrenheit')
+
